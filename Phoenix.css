@@ -1,0 +1,80 @@
+html{
+    padding: 0px;
+}
+
+body {
+    background:rgb(174, 255, 210);
+    padding: 0px;
+    margin: 0px;
+}
+
+a.nav_current:link, a.nav_current:visited {
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    background:rgb(1, 121, 101);
+    text-align:left;
+    padding:10px;
+    font-family: sans-serif;
+    margin-top:3px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+a.nav:link, a.nav:visited {
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    background:rgb(50, 50, 50);
+    text-align:left;
+    padding:10px;
+    font-family: sans-serif;
+    margin-top:3px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+a.nav:hover, a.nav_current:hover {
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    background:rgb(2, 168, 146);
+    text-align:left;
+    padding:12px;
+    font-family: sans-serif;
+    border-radius:5px;
+    margin:0px;
+
+}
+
+.title {
+    font-family: serif;
+    color:rgb(0, 0, 0);
+    font-size:100px;
+    background:rgb(170, 200, 200);
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:10px;
+}
+
+.subtitle {
+    color:rgb(0, 0, 0);
+    font-size:25px;
+    text-align:center;
+    font-family:serif;
+    background:rgb(170, 200, 200);
+    margin:5px;
+    margin-top: 50px;
+}
+
+.paragraph {
+    color:rgb(0, 0, 0);
+    background:rgb(170, 200, 200);
+    margin: 5px;
+    font-size: 15px;
+    font-family: arial;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.hyperlink {
+    text-decoration: none;
+    color:rgb(0, 0, 100)
+}
